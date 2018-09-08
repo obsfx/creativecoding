@@ -31,7 +31,7 @@ Rectangle.prototype.rotate = function() {
     }
 }
 
-
+/** 
 function Ellipse_(r, color, opacity) {
     this.r = r;
     this.color = color;
@@ -47,7 +47,6 @@ Ellipse_.prototype.draw = function() {
     stroke(this.color[0], this.color[1], this.color[2], this.opacity);
 }
 
-/** 
 function Arc_(r, color, opacity, a, rA) {
     this.r = r;
     this.color = color;

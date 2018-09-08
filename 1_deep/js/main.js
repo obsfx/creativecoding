@@ -29,10 +29,10 @@ function setup() {
         );
     }
 
-    for (let i in rectangles) {
+    /*for (let i in rectangles) {
         ellipses.push(new Ellipse_(rectangles[i].side * 3.75, colors.CIRCLE_COLOR, i * (75 / RECT_COUNT)));
-        //arcs.push(new Arc_(rectangles[i].side * 3, colors.CIRCLE_COLOR, i * (50 / RECT_COUNT), PI / 4 + random(PI * 1.2), random(PI * 2)));
-    }
+        arcs.push(new Arc_(rectangles[i].side * 3, colors.CIRCLE_COLOR, i * (50 / RECT_COUNT), PI / 4 + random(PI * 1.2), random(PI * 2)));
+    }*/
 }
 
 function draw() {
