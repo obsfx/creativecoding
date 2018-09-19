@@ -7,7 +7,7 @@ let dots = [];
 let angle = 0;
 
 function setup() {
-    XC = createCanvas(600, 600);
+    createCanvas(600, 600);
     scl = floor(width / CELLS) * 0.75;
 
     for (let i = 0; i < CELLS; i++) {
