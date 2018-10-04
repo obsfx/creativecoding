@@ -14,7 +14,7 @@ function setup() {
     createCanvas(600, 600);
     noStroke();
 
-    offset = (canvas.width - (side * boxside + (side - 1) * boxmargin)) / 2;
+    offset = (600 - (side * boxside + (side - 1) * boxmargin)) / 2;
 
     for (let i = 0; i < side; i++) {
         boxes.push([]);
